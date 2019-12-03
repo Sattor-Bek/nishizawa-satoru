@@ -1,0 +1,15 @@
+#skills {
+  display: inline;
+  i {
+    font-size: 56px;
+    color:#4F4F4F;
+    &:hover {
+    color:#23C3B5;
+    }
+  }
+}
+
+.skill {
+  text-align: center;
+  margin-left: 3px;
+}

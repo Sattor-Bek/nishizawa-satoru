@@ -1,0 +1,39 @@
+#navbar {
+  background: #323232;
+  width:20vw;
+  height:100vh;
+  position: fixed;
+  top:0;
+  bottom:0;
+  ol {
+    margin-top: 5vh;
+    li{
+      margin-left: 1vw;
+      list-style-type: none;
+      p {
+        color: #C0C0C0;
+      }
+    }
+  }
+
+  img{
+    width:100%;
+    border-radius: 10px;
+    margin:3vw;
+  }
+
+  ul { margin-left:0;
+    li {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-between;
+      p {
+        color: #C0C0C0;
+        font-size:24px;
+        &:hover {
+          color:#23C3B5;
+        }
+      }
+    }
+  }
+}

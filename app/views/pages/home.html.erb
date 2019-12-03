@@ -1,2 +1,29 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div id="navbar">
+  <%= render 'navbar' %>
+</div>
+
+<section id="main">
+  <div id="title">
+    <%= render 'title' %>
+  </div>
+  <hr class="m-0">
+  <div id="introduction">
+    <%= render 'introduction' %>
+  </div>
+    <hr class="m-0">
+  <div id="skills">
+    <%= render 'skills' %>
+  </div>
+  <hr class="m-0">
+  <div id="projects">
+    <%= render 'projects' %>
+  </div>
+    <hr class="m-0">
+  <div id="education">
+    <%= render 'education' %>
+  </div>
+  <hr class="ml-0">
+  <div id="personal">
+    <%= render 'personal' %>
+  </div>
+</section>
