@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+body {
+  /*background: linear-gradient(to right, #43cea2, #185a9d);*/
+  background: #F7F7F7;
+  color: #606060;
+  position: relative;
+}
+@import "shared/navbar";
+@import "shared/skills"
+@import "pages";
