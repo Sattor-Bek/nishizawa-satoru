@@ -20,5 +20,5 @@ body {
   position: relative;
 }
 @import "shared/navbar";
-@import "shared/skills"
+@import "shared/skills";
 @import "pages";
