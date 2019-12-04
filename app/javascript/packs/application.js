@@ -22,4 +22,4 @@ $('.carousel').carousel({ interval: 500});
 
 import ScrollOut from "scroll-out";
 
-$ ScrollOut({});
+// $ ScrollOut({});
