@@ -19,3 +19,7 @@ console.log('Hello World from Webpacker')
 import "bootstrap";
 
 $('.carousel').carousel({ interval: 500});
+
+import ScrollOut from "scroll-out";
+
+$ ('.subtitle')ScrollOut({});
