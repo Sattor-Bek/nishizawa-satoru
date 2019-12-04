@@ -1,0 +1,14 @@
+.content {
+  margin-top: 10px;
+  .content-date {
+    color: #23C3B5;
+    display: table-cell;
+    vertical-align: bottom;
+    position:relative;
+    .text {
+      position: absolute;
+      bottom: 0;
+      left: 20px;
+    }
+  }
+}
