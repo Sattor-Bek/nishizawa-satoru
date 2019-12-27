@@ -4,11 +4,12 @@
     color: #23C3B5;
     display: table-cell;
     vertical-align: bottom;
-    position:relative;
+    // position:relative;
     .text {
+      margin-bottom:-25px;
       position: absolute;
       bottom: 0;
-      left: 20px;
+      left: 15px;
     }
   }
 }

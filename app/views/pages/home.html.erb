@@ -1,29 +1,34 @@
-<div id="navbar">
-  <%= render 'navbar' %>
+<div class="container-fluid">
+  <div class="row">
+    <div id="navbar" class="col-lg-3 col-md-3 col-sm-5 text-center">
+      <%= render 'navbar' %>
+    </div>
+    <div  class="col-lg-9 col-md-9 col-sm-5">
+      <section id="main">
+        <div id="title" class="mb-5">
+          <%= render 'title' %>
+        </div>
+        <hr class="m-0">
+        <div id="introduction" class="mb-5">
+          <%= render 'introduction' %>
+        </div>
+          <hr class="m-0">
+        <div id="skills" class="mb-5">
+          <%= render 'skills' %>
+        </div>
+        <hr class="m-0">
+        <div id="projects" class="mb-5">
+          <%= render 'projects' %>
+        </div>
+          <hr class="m-0" class="mb-5">
+        <div id="education">
+          <%= render 'education' %>
+        </div>
+        <hr class="ml-0" class="mb-5">
+        <div id="personal">
+          <%= render 'personal' %>
+        </div>
+      </section>
+    </div>
+  </div>
 </div>
-
-<section id="main">
-  <div id="title" class="mb-5">
-    <%= render 'title' %>
-  </div>
-  <hr class="m-0">
-  <div id="introduction" class="mb-5">
-    <%= render 'introduction' %>
-  </div>
-    <hr class="m-0">
-  <div id="skills" class="mb-5">
-    <%= render 'skills' %>
-  </div>
-  <hr class="m-0">
-  <div id="projects" class="mb-5">
-    <%= render 'projects' %>
-  </div>
-    <hr class="m-0" class="mb-5">
-  <div id="education">
-    <%= render 'education' %>
-  </div>
-  <hr class="ml-0" class="mb-5">
-  <div id="personal">
-    <%= render 'personal' %>
-  </div>
-</section>
