@@ -1,0 +1,22 @@
+.check{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #4F4F4F;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #1e1e1e;
+  border-radius: 3px;
+}
+.check:hover{
+  color: #FFF;
+  text-decoration:none;
+}
+.check:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  color: #FFF;
+  text-decoration:none;
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
